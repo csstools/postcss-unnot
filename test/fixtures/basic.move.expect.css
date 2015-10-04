@@ -1,0 +1,6 @@
+.bar:not(.fail) {
+	color: red;
+}
+.foo, .qux {
+	color: red;
+}
