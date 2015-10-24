@@ -2,7 +2,7 @@
 
 <img align="right" width="135" height="95" src="http://postcss.github.io/postcss/logo-leftp.png" title="Philosopher’s stone, logo of PostCSS">
 
-[UnNot] is a [PostCSS] plugin that removes selectors with `:not` while preserving the others in a rule. This can be useful for outputting CSS for old browsers like Internet Explorer 8.
+[UnNot] removes `:not` selectors while preserving other selectors. This can be useful for outputting CSS for old browsers like Internet Explorer 8.
 
 ```css
 /* before */
@@ -19,8 +19,6 @@
 ```
 
 ## Usage
-
-Follow these steps to use [UnNot].
 
 Add [UnNot] to your build tool:
 
